@@ -3,12 +3,19 @@
 ### Acciones
 
 Movimiento Horizontal: A, D
+
 Movimiento Vertical: W, S
+
 Disparo: boton izquierdo del mouse
+
 Brincar: Espacio
+
 Mirar: Mover Mouse
+
 Sprint: ---
+
 Dodge: ---
+
 
 ### Explicacion de Codigo:
 
