@@ -3,14 +3,15 @@ using UnityEngine.InputSystem;
 
 public class PlayerShooting : MonoBehaviour
 {
-    public GameObject prefab;
-    public GameObject shootingPoint;
-    public void OnFire(InputValue value)
+    public GameObject prefab;//bala
+    public GameObject shootingPoint;//punto de partida
+    public void OnFire(InputValue value)//al precionar left click
     {
         print("dispare");
         if (value.isPressed)
         {
-            GameObject clone = Instantiate(prefab);
+            GameObject clone = Instantiate(prefab);//instanciar bala
+            //donde sale la bala
             clone.transform.position = shootingPoint.transform.position;
             clone.transform.rotation = shootingPoint.transform.rotation;
         }
@@ -24,5 +25,5 @@ public class PlayerShooting : MonoBehaviour
     // Update is called once per frame
     void Update()
 {
-    
+
 }
