@@ -37,6 +37,6 @@ Sprint: Esta función es una modificación del movimiento y, por lo tanto, tambi
 
 ![alt text](<Recording 2026-11-04 214701.gif>)
 
-Dodge: Para esta función, se crearon nuevas variables que permiten guardar la dirección del movimiento anterior y determinar la dirección del Dodge. Esta acción se activa mediante una doble pulsación de los botones direccionales. Para implementarla, se utilizan OnDodge y los vectores lastdir y dodgeDirection. La dirección del Dodge se obtiene de lastdir, que guarda la última dirección registrada mediante OnMove. El movimiento se realiza multiplicando la velocidad por 10 durante un solo frame. Por esta razón, el código de movimiento se ejecuta nuevamente dentro de la condición if (isDodging).
+Dodge: Para esta función, se crearon nuevas variables que permiten guardar la dirección del movimiento anterior y determinar la dirección del Dodge. Esta acción se activa mediante una doble pulsación de los botones direccionales. Para implementarla, se utilizan OnDodge y los vectores lastdir y dodgeDirection. La dirección del Dodge se obtiene de lastdir, que guarda la última dirección registrada mediante OnMove. El movimiento se realiza multiplicando la velocidad por 10 durante un solo frame. Por esta razón, el código de movimiento se ejecuta nuevamente dentro de la condición if (isDodging). Aunque tal vez no se vea bien en el gif el dodge es un movimiento brusco hacia una direccion.
 
 ![alt text](<Recording 2026-11-04 215901.gif>)
